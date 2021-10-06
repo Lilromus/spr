@@ -1,0 +1,34 @@
+.container{
+  padding: 15px;
+    height: auto;
+    float: left;
+  width: 250px;
+  height: 166px;
+  position:absolute;
+}
+.container img{
+  max-width:100%;
+  display:block;
+  height:auto;
+}
+.container a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    /* padding-top: 27%; */
+    font-size: 1.8em;
+    background: rgba(255, 255, 255, 0.6);
+    color: #ee6443;
+    text-decoration: none;
+    text-shadow: 1px 1px #1c75bb;
+    font-family: 'Righteous', cursive;
+    transition: all 1s;
+    display: flex;
+}
+.container a span {
+    align-self: center;
+    flex: 1;
+}
